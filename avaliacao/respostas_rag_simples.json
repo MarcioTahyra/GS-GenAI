@@ -1,0 +1,795 @@
+[
+  {
+    "id": "1",
+    "pergunta": "Meu carro está com dificuldade para dar partida e as luzes do painel estão fracas.",
+    "gabarito": {
+      "chunks_relevantes": [
+        "bateria_sistema_partida_001",
+        "bateria_sistema_partida_002"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "bateria"
+    },
+    "resposta": {
+      "status": "esclarecer",
+      "resposta": "Para esclarecer o problema, é necessário mais informações sobre a bateria e o sistema de partida do seu veículo.",
+      "possivel_problema": "Possível problema com a bateria ou sistema de partida",
+      "servico_recomendado": "Recarga ou auxílio de bateria",
+      "orientacoes_seguranca": [
+        "Manter distância do veículo enquanto tenta ligar para evitar choques elétricos",
+        "Não tente realizar procedimentos elétricos sem conhecimento adequado"
+      ],
+      "pergunta_esclarecimento": "Você pode verificar se há vazamento ou deformação na bateria? E se houver sinais de aquecimento?",
+      "fontes": [
+        "https://www.detran.ma.gov.br/inicio/paginas/Pagina.xhtml?id=23741"
+      ],
+      "chunks_utilizados": [
+        "bateria_sistema_partida_001",
+        "bateria_sistema_partida_004"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "esclarecer",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 0.5,
+      "recusa_correta": null,
+      "categoria_esperada": "bateria"
+    },
+    "duracao_segundos": 2.598
+  },
+  {
+    "id": "2",
+    "pergunta": "A bateria do veículo parece descarregada. O que devo fazer?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "bateria_sistema_partida_002",
+        "bateria_sistema_partida_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "bateria"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "A bateria do seu veículo parece estar descarregada, o que pode causar problemas de partida. Para garantir a segurança, estacione em um local seguro e não tente iniciar o veículo novamente. Solicite avaliação de um profissional para identificar a causa exata da descarga da bateria.",
+      "possivel_problema": "Possível problema de descarga da bateria",
+      "servico_recomendado": "Avaliação elétrica",
+      "orientacoes_seguranca": [
+        "Estacione em um local seguro",
+        "Não tente iniciar o veículo novamente",
+        "Solicite avaliação de um profissional"
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.detran.ma.gov.br/inicio/paginas/Pagina.xhtml?id=23741"
+      ],
+      "chunks_utilizados": [
+        "bateria_sistema_partida_002",
+        "bateria_sistema_partida_004",
+        "bateria_sistema_partida_003"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 1.0,
+      "recusa_correta": null,
+      "categoria_esperada": "bateria"
+    },
+    "duracao_segundos": 2.743
+  },
+  {
+    "id": "3",
+    "pergunta": "O motor de partida está girando lentamente e o carro não liga.",
+    "gabarito": {
+      "chunks_relevantes": [
+        "bateria_sistema_partida_001",
+        "bateria_sistema_partida_002",
+        "bateria_sistema_partida_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "bateria"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "O motor de partida está girando lentamente e o carro não liga. Isso pode indicar problemas na bateria ou no sistema de recarga. Para garantir a segurança, estacione em um local seguro e não tente ligar o veículo novamente. Solicite avaliação de um profissional para identificar a causa exata.",
+      "possivel_problema": "Bateria descarregada ou desgastada",
+      "servico_recomendado": "Avaliação técnica de bateria e sistema de recarga",
+      "orientacoes_seguranca": [
+        "Estacione em um local seguro",
+        "Não tente ligar o veículo novamente",
+        "Solicite avaliação de um profissional"
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.detran.ma.gov.br/inicio/paginas/Pagina.xhtml?id=23741"
+      ],
+      "chunks_utilizados": [
+        "bateria_sistema_partida_002",
+        "bateria_sistema_partida_001"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 0.6666666666666666,
+      "recusa_correta": null,
+      "categoria_esperada": "bateria"
+    },
+    "duracao_segundos": 2.532
+  },
+  {
+    "id": "4",
+    "pergunta": "Meu pneu furou enquanto eu dirigia. Como devo proceder?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "troca_pneus_001",
+        "troca_pneus_002",
+        "troca_pneus_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "pneus"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Para um pneu furado, a melhor orientação é reduzir a velocidade gradualmente e procurar um local seguro para trocar o pneu. Certifique-se de acionar o pisca-alerta e sinalizar a situação conforme as regras de trânsito.",
+      "possivel_problema": null,
+      "servico_recomendado": "Troca de pneu",
+      "orientacoes_seguranca": [
+        "Reduza a velocidade gradualmente",
+        "Evite movimentos bruscos",
+        "Procure um local plano e seguro para parar",
+        "Acione o pisca-alerta",
+        "Sinalize a situação conforme as regras de trânsito",
+        "Avalie se é seguro realizar a troca"
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/pneu-estepe",
+        "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/montagem-de-pneus"
+      ],
+      "chunks_utilizados": [
+        "troca_pneus_001",
+        "troca_pneus_002"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 0.6666666666666666,
+      "recusa_correta": null,
+      "categoria_esperada": "pneus"
+    },
+    "duracao_segundos": 2.678
+  },
+  {
+    "id": "5",
+    "pergunta": "Quais cuidados devo tomar antes de trocar o estepe?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "troca_pneus_002",
+        "troca_pneus_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "pneus"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Antes de trocar o estepe, certifique-se de que a área de trabalho é segura e estável. Evite trocar pneus em vias movimentadas ou em superfícies instáveis. Verifique a pressão do estepe e respeite os limites de velocidade indicados pelo fabricante.",
+      "possivel_problema": null,
+      "servico_recomendado": "Troca de pneu estepe",
+      "orientacoes_seguranca": [
+        "Verifique a pressão do estepe",
+        "Respeite os limites de velocidade indicados pelo fabricante",
+        "Observe as restrições de utilização do estepe temporário",
+        "Procure uma oficina para avaliar o pneu danificado"
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/pneu-estepe",
+        "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/montagem-de-pneus"
+      ],
+      "chunks_utilizados": [
+        "troca_pneus_002",
+        "troca_pneus_003",
+        "troca_pneus_004"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 1.0,
+      "recusa_correta": null,
+      "categoria_esperada": "pneus"
+    },
+    "duracao_segundos": 2.689
+  },
+  {
+    "id": "6",
+    "pergunta": "Posso trocar um pneu com o carro parado em um acostamento movimentado?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "troca_pneus_001",
+        "troca_pneus_002",
+        "seguranca_emergencias_001",
+        "seguranca_emergencias_002"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "pneus"
+    },
+    "resposta": {
+      "status": "esclarecer",
+      "resposta": "Para determinar a melhor orientação, precisamos saber mais sobre a situação do pneu. Você pode fornecer mais detalhes sobre a condição do pneu, como perfurações, perda de pressão, cortes ou rasgos?",
+      "possivel_problema": null,
+      "servico_recomendado": "Troca de pneu estepe",
+      "orientacoes_seguranca": [
+        "Troque o pneu em uma posição segura, como próximo a um acostamento ou em uma via paralela.",
+        "Acione o freio de estacionamento e a marcha.",
+        "Use um macaco compatível com o veículo.",
+        "Coloque um pneu estepe em boas condições.",
+        "Utilize uma lanterna para iluminar a área de trabalho.",
+        "Nunca coloque partes do corpo embaixo de um veículo sustentado apenas pelo macaco."
+      ],
+      "pergunta_esclarecimento": "Você pode fornecer mais detalhes sobre a condição do pneu, como perfurações, perda de pressão, cortes ou rasgos?",
+      "fontes": [
+        "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/pneu-estepe",
+        "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/montagem-de-pneus"
+      ],
+      "chunks_utilizados": [
+        "troca_pneus_002",
+        "troca_pneus_004",
+        "troca_pneus_001"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "esclarecer",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 0.5,
+      "recusa_correta": null,
+      "categoria_esperada": "pneus"
+    },
+    "duracao_segundos": 3.318
+  },
+  {
+    "id": "7",
+    "pergunta": "A temperatura do motor está muito alta. O que devo fazer?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "superaquecimento_motor_001",
+        "superaquecimento_motor_002",
+        "superaquecimento_motor_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "superaquecimento"
+    },
+    "resposta": {
+      "status": "recusa",
+      "resposta": "O relato não corresponde a um assunto documentado na base de conhecimento. Não posso orientar sobre esse problema sem evidências adequadas.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [],
+      "pergunta_esclarecimento": "Você pode fornecer mais detalhes sobre o que aconteceu?",
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "recusa",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 0.0,
+      "recusa_correta": null,
+      "categoria_esperada": "superaquecimento"
+    },
+    "duracao_segundos": 0.0
+  },
+  {
+    "id": "8",
+    "pergunta": "Está saindo vapor do compartimento do motor.",
+    "gabarito": {
+      "chunks_relevantes": [
+        "superaquecimento_motor_001",
+        "superaquecimento_motor_002",
+        "superaquecimento_motor_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "superaquecimento"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "O motor está superaquecido. Desligue-o imediatamente e aguarde até que o sistema esfrie. Solicite assistência profissional para identificar e resolver a causa do superaquecimento.",
+      "possivel_problema": "Possível vazamento no sistema de arrefecimento ou falhas na circulação do líquido.",
+      "servico_recomendado": "Assistência mecânica",
+      "orientacoes_seguranca": [
+        "Não coloque as mãos em componentes quentes ou em partes móveis do motor.",
+        "Não volte a ligar o motor antes de identificar e resolver a causa do superaquecimento.",
+        "Não abra a tampa do reservatório de líquido de arrefecimento enquanto o sistema estiver quente."
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.ford.com.br/content/dam/Ford/website-assets/latam/br/nameplate/2020/ecosport/pdf/Ecosport-Manual%20do%20Propriet%C3%A1rio-MY20.pdf"
+      ],
+      "chunks_utilizados": [
+        "superaquecimento_motor_003",
+        "superaquecimento_motor_001",
+        "superaquecimento_motor_002"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 1.0,
+      "recusa_correta": null,
+      "categoria_esperada": "superaquecimento"
+    },
+    "duracao_segundos": 2.78
+  },
+  {
+    "id": "9",
+    "pergunta": "É seguro abrir o reservatório de arrefecimento com o motor quente?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "superaquecimento_motor_002",
+        "superaquecimento_motor_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "superaquecimento"
+    },
+    "resposta": {
+      "status": "esclarecer",
+      "resposta": "É perigoso abrir o reservatório de arrefecimento com o motor quente. Isso pode causar queimaduras ou vazamento de líquido quente.",
+      "possivel_problema": "Superaquecimento do motor",
+      "servico_recomendado": "Assistência mecânica",
+      "orientacoes_seguranca": [
+        "Não tente abrir o reservatório de arrefecimento enquanto o motor estiver quente."
+      ],
+      "pergunta_esclarecimento": "Qual é o nível de líquido de arrefecimento atual?",
+      "fontes": [
+        "https://www.ford.com.br/content/dam/Ford/website-assets/latam/br/nameplate/2020/ecosport/pdf/Ecosport-Manual%20do%20Propriet%C3%A1rio-MY20.pdf"
+      ],
+      "chunks_utilizados": [
+        "superaquecimento_motor_002",
+        "superaquecimento_motor_003"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "esclarecer",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 1.0,
+      "recusa_correta": null,
+      "categoria_esperada": "superaquecimento"
+    },
+    "duracao_segundos": 2.02
+  },
+  {
+    "id": "10",
+    "pergunta": "Meu veículo ficou sem combustível durante o trajeto. Como devo agir?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "pane_seca_001",
+        "pane_seca_002",
+        "pane_seca_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "combustivel"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Se seu veículo ficou sem combustível durante o trajeto, mantenha a calma e reduza a velocidade gradualmente. Procure um local seguro para parar, fora da faixa de rolamento. Acione o pisca-alerta e solicite assistência para fornecimento de combustível. Não tente transportar combustível em recipientes inadequados ou realizar procedimentos perigosos.",
+      "possivel_problema": null,
+      "servico_recomendado": "Entrega emergencial de combustível",
+      "orientacoes_seguranca": [
+        "Mantenha a calma",
+        "Reduza a velocidade gradualmente",
+        "Procure um local seguro para parar",
+        "Acione o pisca-alerta",
+        "Solicite assistência para fornecimento de combustível"
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+        "https://www.gov.br/prf/pt-br/noticias/estaduais/mato-grosso/2022/outubro/atendimento-por-pane-seca-reduz-10-na-br-163-mt",
+        "https://www.ba.gov.br/detran/noticias/2021-06/04/condutas-de-seguranca-no-transito-pouco-praticadas"
+      ],
+      "chunks_utilizados": [
+        "pane_seca_002",
+        "pane_seca_001",
+        "pane_seca_003"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 1.0,
+      "recusa_correta": null,
+      "categoria_esperada": "combustivel"
+    },
+    "duracao_segundos": 3.682
+  },
+  {
+    "id": "11",
+    "pergunta": "O carro parou porque acabou a gasolina. Qual assistência devo solicitar?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "pane_seca_002",
+        "pane_seca_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "combustivel"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "O motorista deve solicitar assistência para a entrega de combustível.",
+      "possivel_problema": null,
+      "servico_recomendado": "Entrega emergencial de combustível",
+      "orientacoes_seguranca": [
+        "Manter as luzes de advertência acesas e realizar sinalização do veículo conforme as orientações do Contran."
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+        "https://www.gov.br/prf/pt-br/noticias/estaduais/mato-grosso/2022/outubro/atendimento-por-pane-seca-reduz-10-na-br-163-mt",
+        "https://www.ba.gov.br/detran/noticias/2021-06/04/condutas-de-seguranca-no-transito-pouco-praticadas",
+        "https://www.gov.br/prf/pt-br/seguranca-viaria/orientacoes-de-viagem",
+        "https://www.bibliotecajuridica.sp.gov.br/veiculo-ficou-imovel-na-via-detran-sp-orienta-sobre-o-que-fazer/",
+        "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/mbvt20222.pdf"
+      ],
+      "chunks_utilizados": [
+        "pane_seca_003",
+        "seguranca_emergencias_002"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 0.5,
+      "recusa_correta": null,
+      "categoria_esperada": "combustivel"
+    },
+    "duracao_segundos": 1.577
+  },
+  {
+    "id": "12",
+    "pergunta": "Quais cuidados devo tomar para evitar uma pane seca?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "pane_seca_001",
+        "pane_seca_002"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "combustivel"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Para evitar uma pane seca, mantenha o nível de combustível sempre adequado e verifique o nível de combustível antes de viajar. Além disso, siga as orientações de segurança fornecidas para evitar pane seca.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [
+        "Mantenha o nível de combustível sempre adequado.",
+        "Verifique o nível de combustível antes de viajar.",
+        "Reduza a velocidade gradualmente quando perceber que o combustível está acabando.",
+        "Procure um local seguro para parar e acione o pisca-alerta.",
+        "Solicite assistência para fornecimento de combustível.",
+        "Não tente transportar combustível em recipientes inadequados ou realizar procedimentos perigosos."
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+        "https://www.gov.br/prf/pt-br/noticias/estaduais/mato-grosso/2022/outubro/atendimento-por-pane-seca-reduz-10-na-br-163-mt",
+        "https://www.ba.gov.br/detran/noticias/2021-06/04/condutas-de-seguranca-no-transito-pouco-praticadas"
+      ],
+      "chunks_utilizados": [
+        "pane_seca_002",
+        "pane_seca_001",
+        "pane_seca_004"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 1.0,
+      "recusa_correta": null,
+      "categoria_esperada": "combustivel"
+    },
+    "duracao_segundos": 3.761
+  },
+  {
+    "id": "13",
+    "pergunta": "Meu carro quebrou em uma rodovia. Como devo sinalizar a emergência?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "seguranca_emergencias_001",
+        "seguranca_emergencias_002",
+        "seguranca_emergencias_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "seguranca"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Para sinalizar a emergência, você deve acionar as luzes de advertência e colocar um triângulo de sinalização perpendicularmente ao eixo da via, em condição de boa visibilidade e a pelo menos 30 metros da parte traseira do veículo.",
+      "possivel_problema": null,
+      "servico_recomendado": "Nenhum serviço recomendado",
+      "orientacoes_seguranca": [
+        "Acionar as luzes de advertência e colocar um triângulo de sinalização conforme as regras de trânsito",
+        "Parar em um local seguro, fora da faixa de rolamento",
+        "Ligar o pisca-alerta após imobilizar o veículo",
+        "Evitar permanecer próximo à pista",
+        "Solicitar assistência mecânica quando necessário",
+        "Solicitar assistência profissional quando necessário",
+        "Priorizar a segurança dos ocupantes e recomendar assistência profissional em situações de risco"
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.gov.br/prf/pt-br/seguranca-viaria/orientacoes-de-viagem",
+        "https://www.bibliotecajuridica.sp.gov.br/veiculo-ficou-imovel-na-via-detran-sp-orienta-sobre-o-que-fazer/",
+        "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/mbvt20222.pdf"
+      ],
+      "chunks_utilizados": [
+        "seguranca_emergencias_001",
+        "seguranca_emergencias_002",
+        "seguranca_emergencias_003"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 1.0,
+      "recusa_correta": null,
+      "categoria_esperada": "seguranca"
+    },
+    "duracao_segundos": 3.471
+  },
+  {
+    "id": "14",
+    "pergunta": "Onde devo esperar por ajuda depois de parar o veículo em uma situação de emergência?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "seguranca_emergencias_001",
+        "seguranca_emergencias_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "seguranca"
+    },
+    "resposta": {
+      "status": "recusa",
+      "resposta": "O relato não corresponde a um assunto documentado na base de conhecimento. Não posso orientar sobre esse problema sem evidências adequadas.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [],
+      "pergunta_esclarecimento": "Você pode fornecer mais detalhes sobre o que aconteceu?",
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "recusa",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 0.0,
+      "recusa_correta": null,
+      "categoria_esperada": "seguranca"
+    },
+    "duracao_segundos": 0.0
+  },
+  {
+    "id": "15",
+    "pergunta": "Qual número devo chamar para solicitar ajuda da Polícia Rodoviária Federal?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "seguranca_emergencias_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "seguranca"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Em caso de emergência, você deve chamar o número 191 para solicitar assistência da Polícia Rodoviária Federal.",
+      "possivel_problema": null,
+      "servico_recomendado": "Polícia Rodoviária Federal",
+      "orientacoes_seguranca": [
+        "Acione as luzes de advertência e sinalize o veículo conforme as orientações do Contran.",
+        "Coloque o triângulo de segurança perpendicularmente ao eixo da via, a pelo menos 30 metros da parte traseira do veículo.",
+        "Se houver danos que impeçam a circulação segura, acione a Polícia Rodoviária Federal pelo telefone 191."
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.gov.br/prf/pt-br/seguranca-viaria/orientacoes-de-viagem",
+        "https://www.bibliotecajuridica.sp.gov.br/veiculo-ficou-imovel-na-via-detran-sp-orienta-sobre-o-que-fazer/",
+        "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/mbvt20222.pdf"
+      ],
+      "chunks_utilizados": [
+        "seguranca_emergencias_002",
+        "seguranca_emergencias_003"
+      ]
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": 1.0,
+      "recusa_correta": null,
+      "categoria_esperada": "seguranca"
+    },
+    "duracao_segundos": 2.805
+  },
+  {
+    "id": "16",
+    "pergunta": "A luz do ABS acendeu no painel. Qual peça devo substituir?",
+    "gabarito": {
+      "status_esperado": "recusa"
+    },
+    "resposta": {
+      "status": "recusa",
+      "resposta": "O relato não corresponde a um assunto documentado na base de conhecimento. Não posso orientar sobre esse problema sem evidências adequadas.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [],
+      "pergunta_esclarecimento": "Você pode fornecer mais detalhes sobre o que aconteceu?",
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "recusa",
+      "status_obtido": "recusa",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": true,
+      "categoria_esperada": null
+    },
+    "duracao_segundos": 0.0
+  },
+  {
+    "id": "17",
+    "pergunta": "O vidro elétrico do motorista parou de funcionar. Como consertar?",
+    "gabarito": {
+      "status_esperado": "recusa"
+    },
+    "resposta": {
+      "status": "recusa",
+      "resposta": "O relato não corresponde a um assunto documentado na base de conhecimento. Não posso orientar sobre esse problema sem evidências adequadas.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [],
+      "pergunta_esclarecimento": "Você pode fornecer mais detalhes sobre o que aconteceu?",
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "recusa",
+      "status_obtido": "recusa",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": true,
+      "categoria_esperada": null
+    },
+    "duracao_segundos": 0.0
+  },
+  {
+    "id": "18",
+    "pergunta": "O ar-condicionado do carro não está gelando. Qual é o defeito?",
+    "gabarito": {
+      "status_esperado": "recusa"
+    },
+    "resposta": {
+      "status": "recusa",
+      "resposta": "O relato não corresponde a um assunto documentado na base de conhecimento. Não posso orientar sobre esse problema sem evidências adequadas.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [],
+      "pergunta_esclarecimento": "Você pode fornecer mais detalhes sobre o que aconteceu?",
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "recusa",
+      "status_obtido": "recusa",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": true,
+      "categoria_esperada": null
+    },
+    "duracao_segundos": 0.0
+  },
+  {
+    "id": "19",
+    "pergunta": "Meu veículo está apresentando vazamento de óleo do motor. Como resolver?",
+    "gabarito": {
+      "status_esperado": "recusa"
+    },
+    "resposta": {
+      "status": "recusa",
+      "resposta": "O relato não corresponde a um assunto documentado na base de conhecimento. Não posso orientar sobre esse problema sem evidências adequadas.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [],
+      "pergunta_esclarecimento": "Você pode fornecer mais detalhes sobre o que aconteceu?",
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "recusa",
+      "status_obtido": "recusa",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": true,
+      "categoria_esperada": null
+    },
+    "duracao_segundos": 0.0
+  },
+  {
+    "id": "20",
+    "pergunta": "O sensor de estacionamento está emitindo alertas continuamente. Como corrigir?",
+    "gabarito": {
+      "status_esperado": "recusa"
+    },
+    "resposta": {
+      "status": "recusa",
+      "resposta": "O relato não corresponde a um assunto documentado na base de conhecimento. Não posso orientar sobre esse problema sem evidências adequadas.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [],
+      "pergunta_esclarecimento": "Você pode fornecer mais detalhes sobre o que aconteceu?",
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "recusa",
+      "status_obtido": "recusa",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": true,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": true,
+      "categoria_esperada": null
+    },
+    "duracao_segundos": 0.0
+  }
+]

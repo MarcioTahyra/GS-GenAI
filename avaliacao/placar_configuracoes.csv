@@ -1,0 +1,4 @@
+﻿configuracao;total;status_correto_pct;estrutura_valida_pct;citacoes_validas_pct;recusas_corretas_pct;cobertura_chunks_gabarito_pct;tempo_medio_segundos;erros_execucao
+qwen_puro;20;40.0;65.0;;0.0;;2.172;0
+rag_simples;20;75.0;100.0;100.0;100.0;72.22;1.833;0
+rag_agente_v7;20;100.0;100.0;100.0;100.0;80.0;0.884;0

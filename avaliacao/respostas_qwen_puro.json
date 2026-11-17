@@ -1,0 +1,815 @@
+[
+  {
+    "id": "1",
+    "pergunta": "Meu carro está com dificuldade para dar partida e as luzes do painel estão fracas.",
+    "gabarito": {
+      "chunks_relevantes": [
+        "bateria_sistema_partida_001",
+        "bateria_sistema_partida_002"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "bateria"
+    },
+    "resposta": {
+      "status": "esclarecer",
+      "resposta": "Seu carro está apresentando problemas de partida e as luzes do painel estão fracas. Isso pode ser devido a uma bateria fraca ou falha no sistema de ignição. Recomendo que você leve seu veículo a um mecânico para uma avaliação mais aprofundada.",
+      "possivel_problema": [
+        "bateria fraca",
+        "falha no sistema de ignição"
+      ],
+      "servico_recomendado": [
+        "Levar seu veículo a um mecânico"
+      ],
+      "orientacoes_seguranca": [
+        "Não tente acender o motor com a chave",
+        "Evite danos adicionais ao veículo"
+      ],
+      "pergunta_esclarecimento": "Você sabe se o problema começou recentemente ou se já vinha ocorrendo?",
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "esclarecer",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "bateria"
+    },
+    "duracao_segundos": 4.397
+  },
+  {
+    "id": "2",
+    "pergunta": "A bateria do veículo parece descarregada. O que devo fazer?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "bateria_sistema_partida_002",
+        "bateria_sistema_partida_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "bateria"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Verifique se a chave de ignição está ligada. Se estiver, tente ligar o veículo. Se a bateria estiver realmente descarregada, o veículo provavelmente não liga. Se isso ocorrer, você pode precisar de uma bateria de recarga ou uma assistência para carregar a bateria.",
+      "possivel_problema": [
+        "bateria descarregada"
+      ],
+      "servico_recomendado": [
+        "checagem da bateria e do sistema de ignição"
+      ],
+      "orientacoes_seguranca": [
+        "Nunca tente carregar uma bateria sem proteção"
+      ],
+      "pergunta_esclarecimento": [
+        "O veículo não liga mesmo após ligar a chave"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "bateria"
+    },
+    "duracao_segundos": 2.094
+  },
+  {
+    "id": "3",
+    "pergunta": "O motor de partida está girando lentamente e o carro não liga.",
+    "gabarito": {
+      "chunks_relevantes": [
+        "bateria_sistema_partida_001",
+        "bateria_sistema_partida_002",
+        "bateria_sistema_partida_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "bateria"
+    },
+    "resposta": {
+      "status": "responder",
+      "resposta": "O motor de partida está girando lentamente e o carro não liga, o que pode ser devido a problemas de ignição ou problemas de ligação. Verifique se o fusível de ignição está funcionando corretamente e se o fusível de ligação está ligado. Se o problema persistir, é recomendável que você leve o veículo a um profissional de automóveis para uma avaliação mais aprofundada.",
+      "possivel_problema": [
+        "Problemas de ignição",
+        "Problemas de ligação"
+      ],
+      "servico_recomendado": [
+        "Verificar fusíveis de ignição e ligação",
+        "Levar o veículo a um profissional de automóveis"
+      ],
+      "orientacoes_seguranca": [
+        "Não tente ligar o carro com o motor de partida girando muito",
+        "Evite danos adicionais ao veículo"
+      ],
+      "pergunta_esclarecimento": [
+        "Está o fusível de ignição funcionando corretamente?",
+        "Está o fusível de ligação ligado?"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "responder",
+      "status_correto": false,
+      "estrutura_valida": false,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "bateria"
+    },
+    "duracao_segundos": 2.47
+  },
+  {
+    "id": "4",
+    "pergunta": "Meu pneu furou enquanto eu dirigia. Como devo proceder?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "troca_pneus_001",
+        "troca_pneus_002",
+        "troca_pneus_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "pneus"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Descanse o veículo em segurança e procure um pneu de reparo ou troca. Se não puder ser reparado no local, leve-o a um profissional de reparo de pneus.",
+      "possivel_problema": [
+        "pneu furado"
+      ],
+      "servico_recomendado": [
+        "reparo de pneu"
+      ],
+      "orientacoes_seguranca": [
+        "Evite dirigir com o pneu furado para evitar danos adicionais"
+      ],
+      "pergunta_esclarecimento": [
+        "Qual o procedimento para trocar um pneu furado?"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "pneus"
+    },
+    "duracao_segundos": 1.95
+  },
+  {
+    "id": "5",
+    "pergunta": "Quais cuidados devo tomar antes de trocar o estepe?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "troca_pneus_002",
+        "troca_pneus_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "pneus"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Antes de trocar o estepe, é importante verificar se o pneu está com pressão correta e verificar se há qualquer dano no pneu que possa causar danos durante a troca. Além disso, certifique-se de ter um local seguro para fazer a troca, como uma área de estacionamento ou um local de trabalho adequado. É essencial ter um kit de conserto de pneus ou um pneu de conserto à mão para uso de emergência.",
+      "possivel_problema": null,
+      "servico_recomendado": [
+        "Verificar a pressão do pneu",
+        "Verificar o estado do pneu",
+        "Ter um kit de conserto de pneus à mão"
+      ],
+      "orientacoes_seguranca": [
+        "Manter a segurança sempre em primeiro lugar",
+        "Usar proteção adequada",
+        "Ter um local seguro para fazer a troca"
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "pneus"
+    },
+    "duracao_segundos": 2.218
+  },
+  {
+    "id": "6",
+    "pergunta": "Posso trocar um pneu com o carro parado em um acostamento movimentado?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "troca_pneus_001",
+        "troca_pneus_002",
+        "seguranca_emergencias_001",
+        "seguranca_emergencias_002"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "pneus"
+    },
+    "resposta": {
+      "status": "esclarecer",
+      "resposta": "Não é recomendado realizar a troca de pneu em um local movimentado e sem segurança adequada, pois pode ser perigoso. Recomendamos que você procure um local seguro e com assistência profissional.",
+      "possivel_problema": [
+        "perigo de acidentes",
+        "congestão de trânsito"
+      ],
+      "servico_recomendado": [
+        "chamada de socorro",
+        "troca de pneu em local seguro"
+      ],
+      "orientacoes_seguranca": [
+        "encontre um local seguro e com assistência",
+        "use o cinto de segurança sempre"
+      ],
+      "pergunta_esclarecimento": "Você poderia fornecer mais detalhes sobre o local e a situação?",
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "esclarecer",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "pneus"
+    },
+    "duracao_segundos": 1.728
+  },
+  {
+    "id": "7",
+    "pergunta": "A temperatura do motor está muito alta. O que devo fazer?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "superaquecimento_motor_001",
+        "superaquecimento_motor_002",
+        "superaquecimento_motor_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "superaquecimento"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Verifique se o ar condicionado está ligado. Se estiver, desligue-o. Se o problema persistir, entre em contato com um profissional de manutenção automotiva.",
+      "possivel_problema": [
+        "excesso de carga no motor",
+        "falta de lubrificação",
+        "falha no sistema de refrigeração"
+      ],
+      "servico_recomendado": [
+        "verificar o sistema de refrigeração",
+        "verificar a lubrificação do motor"
+      ],
+      "orientacoes_seguranca": [
+        "Não tente resolver o problema sozinho",
+        "Evite tocar em componentes quentes"
+      ],
+      "pergunta_esclarecimento": [
+        "O ar condicionado está ligado?",
+        "O motor está funcionando normalmente?"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "superaquecimento"
+    },
+    "duracao_segundos": 1.904
+  },
+  {
+    "id": "8",
+    "pergunta": "Está saindo vapor do compartimento do motor.",
+    "gabarito": {
+      "chunks_relevantes": [
+        "superaquecimento_motor_001",
+        "superaquecimento_motor_002",
+        "superaquecimento_motor_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "superaquecimento"
+    },
+    "resposta": {
+      "status": "responder",
+      "resposta": "O vapor do motor pode ser um sinal de um problema de lubrificação ou de um problema de arrefecimento. Isso pode ser causado por um sistema de arrefecimento quebrado ou por um problema de lubrificação. Recomendo que você entre em contato com um profissional de manutenção automotiva para que eles possam fazer uma avaliação.",
+      "possivel_problema": [
+        "Problema de lubrificação",
+        "Problema de arrefecimento"
+      ],
+      "servico_recomendado": [
+        "Manutenção do sistema de arrefecimento",
+        "Manutenção da lubrificação"
+      ],
+      "orientacoes_seguranca": [
+        "Não tente reparar o problema sozinho",
+        "Evite tocar em partes quentes do motor"
+      ],
+      "pergunta_esclarecimento": [
+        "Qual o modelo e ano do seu veículo?",
+        "Qual a marca e modelo do seu veículo?"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "responder",
+      "status_correto": false,
+      "estrutura_valida": false,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "superaquecimento"
+    },
+    "duracao_segundos": 2.131
+  },
+  {
+    "id": "9",
+    "pergunta": "É seguro abrir o reservatório de arrefecimento com o motor quente?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "superaquecimento_motor_002",
+        "superaquecimento_motor_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "superaquecimento"
+    },
+    "resposta": {
+      "status": "esclarecer",
+      "resposta": "Abrir o reservatório de arrefecimento com o motor quente pode ser perigoso, pois pode causar um vazamento de líquido ou um acúmulo de vapor, que pode resultar em um acidente devido à alta temperatura.",
+      "possivel_problema": [
+        "acúmulo de vapor",
+        "vazamento de líquido"
+      ],
+      "servico_recomendado": [
+        "chamada de um profissional de manutenção"
+      ],
+      "orientacoes_seguranca": [
+        "Evite abrir o reservatório de arrefecimento quando o motor estiver quente"
+      ],
+      "pergunta_esclarecimento": [
+        "Qual é o melhor procedimento para garantir a segurança durante a manutenção do motor?"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "esclarecer",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "superaquecimento"
+    },
+    "duracao_segundos": 1.8
+  },
+  {
+    "id": "10",
+    "pergunta": "Meu veículo ficou sem combustível durante o trajeto. Como devo agir?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "pane_seca_001",
+        "pane_seca_002",
+        "pane_seca_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "combustivel"
+    },
+    "resposta": {
+      "status": "responder",
+      "resposta": "Se seu veículo ficou sem combustível, você deve primeiro tentar ligar o carro. Se não funcionar, procure um local seguro para parar e ligar o alarme ou sinalizador de emergência. Em seguida, procure ajuda, seja por meio de um telefone ou chamando um serviço de socorro.",
+      "possivel_problema": [
+        "falta de combustível",
+        "falha no sistema de combustível"
+      ],
+      "servico_recomendado": [
+        "chamada de socorro",
+        "abastecimento de combustível"
+      ],
+      "orientacoes_seguranca": [
+        "não tente abastecer o veículo sozinho",
+        "seja cuidadoso ao sair do veículo"
+      ],
+      "pergunta_esclarecimento": [
+        "qual o modelo do seu veículo?",
+        "quanto combustível você tinha no momento?"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "responder",
+      "status_correto": false,
+      "estrutura_valida": false,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "combustivel"
+    },
+    "duracao_segundos": 1.978
+  },
+  {
+    "id": "11",
+    "pergunta": "O carro parou porque acabou a gasolina. Qual assistência devo solicitar?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "pane_seca_002",
+        "pane_seca_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "combustivel"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Solicite um serviço de abastecimento de gasolina.",
+      "possivel_problema": null,
+      "servico_recomendado": [
+        "abastecimento de gasolina"
+      ],
+      "orientacoes_seguranca": [
+        "Não tente abastecer o veículo sozinho, solicite ajuda profissional"
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "combustivel"
+    },
+    "duracao_segundos": 1.068
+  },
+  {
+    "id": "12",
+    "pergunta": "Quais cuidados devo tomar para evitar uma pane seca?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "pane_seca_001",
+        "pane_seca_002"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "combustivel"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Para evitar uma pane seca, é importante manter seu veículo em boas condições de manutenção. Certifique-se de que o tanque de combustível está sempre cheio, pois uma falta de combustível pode levar a uma pane seca. Além disso, é essencial que o sistema de arrefecimento esteja funcionando corretamente para evitar sobreaquecimento do motor. Também é importante verificar regularmente o nível de óleo e a pressão do pneus para garantir que o motor esteja sempre em bom estado.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [
+        "Manter o tanque de combustível sempre cheio",
+        "Verificar o nível de óleo regularmente",
+        "Manter o sistema de arrefecimento em boas condições",
+        "Verificar a pressão dos pneus regularmente"
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "combustivel"
+    },
+    "duracao_segundos": 2.232
+  },
+  {
+    "id": "13",
+    "pergunta": "Meu carro quebrou em uma rodovia. Como devo sinalizar a emergência?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "seguranca_emergencias_001",
+        "seguranca_emergencias_002",
+        "seguranca_emergencias_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "seguranca"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "Você deve sinalizar a emergência colocando o seu carro em uma faixa de segurança, se possível. Isso pode ser feito colocando o seu veículo em uma faixa de segurança, se possível, e sinalizando com um sinal de emergência ou um objeto brilhante como uma jaqueta de segurança. Se não houver uma faixa de segurança disponível, você deve sinalizar a rodovia com um sinal de emergência ou um objeto brilhante.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [
+        "Coloque o seu carro em uma faixa de segurança, se possível",
+        "Use um sinal de emergência ou um objeto brilhante como uma jaqueta de segurança para sinalizar a rodovia",
+        "Se não houver uma faixa de segurança disponível, sinalize a rodovia com um sinal de emergência ou um objeto brilhante"
+      ],
+      "pergunta_esclarecimento": null,
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "seguranca"
+    },
+    "duracao_segundos": 2.412
+  },
+  {
+    "id": "14",
+    "pergunta": "Onde devo esperar por ajuda depois de parar o veículo em uma situação de emergência?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "seguranca_emergencias_001",
+        "seguranca_emergencias_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "seguranca"
+    },
+    "resposta": {
+      "status": "esclarecer",
+      "resposta": "Depende da situação de emergência e do local onde você está. Em geral, você deve esperar por ajuda em um local seguro e visível, como um local de estacionamento ou em uma via de mão única, sempre respeitando as leis locais e as regras de trânsito.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": [
+        "Escolha um local seguro e visível para esperar por ajuda.",
+        "Se possível, use um telefone para chamar por ajuda.",
+        "Se você estiver em uma estrada, mantenha-se à distância dos carros que podem se chocar com você.",
+        "Se houver um acidente, informe a polícia e os serviços de emergência.",
+        "Se você estiver em um veículo blindado, use o sistema de sinalização de emergência.",
+        "Se você estiver em uma cidade, use o sinalizador de emergência do veículo.",
+        "Se você estiver em uma estrada, use o sinalizador de emergência do veículo.",
+        "Se você estiver em uma estrada, use o sinalizador de emergência do veículo."
+      ],
+      "pergunta_esclarecimento": "Você gostaria de saber mais sobre onde esperar por ajuda em diferentes situações de emergência?",
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "esclarecer",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "seguranca"
+    },
+    "duracao_segundos": 3.454
+  },
+  {
+    "id": "15",
+    "pergunta": "Qual número devo chamar para solicitar ajuda da Polícia Rodoviária Federal?",
+    "gabarito": {
+      "chunks_relevantes": [
+        "seguranca_emergencias_003"
+      ],
+      "status_esperado": "respondido",
+      "categoria_esperada": "seguranca"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "O número para solicitar ajuda da Polícia Rodoviária Federal é 191.",
+      "possivel_problema": null,
+      "servico_recomendado": null,
+      "orientacoes_seguranca": null,
+      "pergunta_esclarecimento": null,
+      "fontes": [
+        "https://www.federpol.gov.br/"
+      ],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "respondido",
+      "status_obtido": "respondido",
+      "status_correto": true,
+      "estrutura_valida": false,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": null,
+      "categoria_esperada": "seguranca"
+    },
+    "duracao_segundos": 1.042
+  },
+  {
+    "id": "16",
+    "pergunta": "A luz do ABS acendeu no painel. Qual peça devo substituir?",
+    "gabarito": {
+      "status_esperado": "recusa"
+    },
+    "resposta": {
+      "status": "esclarecer",
+      "resposta": "A luz do ABS acendendo no painel pode indicar problemas variados, como um sensor de temperatura, um sensor de pressão de ar ou um sensor de velocidade. Sem acesso a documentos do projeto, não posso determinar a peça específica que deve ser substituída. Recomendo que você entre em contato com um profissional de automóveis para que ele possa fazer uma avaliação adequada.",
+      "possivel_problema": [
+        "problema no sensor de temperatura",
+        "problema no sensor de pressão de ar",
+        "problema no sensor de velocidade"
+      ],
+      "servico_recomendado": [
+        "contato com um profissional de automóveis"
+      ],
+      "orientacoes_seguranca": [
+        "Não tente desligar o ABS manualmente"
+      ],
+      "pergunta_esclarecimento": [
+        "Qual é o modelo e ano do seu veículo?"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "recusa",
+      "status_obtido": "esclarecer",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": false,
+      "categoria_esperada": null
+    },
+    "duracao_segundos": 2.067
+  },
+  {
+    "id": "17",
+    "pergunta": "O vidro elétrico do motorista parou de funcionar. Como consertar?",
+    "gabarito": {
+      "status_esperado": "recusa"
+    },
+    "resposta": {
+      "status": "responder",
+      "resposta": "Para resolver o problema do vidro elétrico do motorista, você precisará de um cabo de vidro elétrico e uma chave de fenda. Abra o painel do motor e conecte o cabo de vidro elétrico ao vidro e ao fusível. Se o fusível estiver quebrado, você precisará substituí-lo. Caso o fusível esteja funcionando, você precisará verificar se o cabo de vidro elétrico está conectado corretamente.",
+      "possivel_problema": [
+        "cabo de vidro elétrico quebrado",
+        "fusível quebrado"
+      ],
+      "servico_recomendado": [
+        "abrir o painel do motor",
+        "conectar o cabo de vidro elétrico"
+      ],
+      "orientacoes_seguranca": [
+        "use luvas e óculos de proteção ao abrir o painel do motor",
+        "sempre desligar o motor antes de trabalhar com eletricidade"
+      ],
+      "pergunta_esclarecimento": [
+        "qual o fusível quebrado",
+        "como verificar se o cabo de vidro elétrico está conectado corretamente"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "recusa",
+      "status_obtido": "responder",
+      "status_correto": false,
+      "estrutura_valida": false,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": false,
+      "categoria_esperada": null
+    },
+    "duracao_segundos": 2.598
+  },
+  {
+    "id": "18",
+    "pergunta": "O ar-condicionado do carro não está gelando. Qual é o defeito?",
+    "gabarito": {
+      "status_esperado": "recusa"
+    },
+    "resposta": {
+      "status": "respondido",
+      "resposta": "O problema pode estar relacionado à falta de refrigerante no sistema de ar-condicionado do seu carro. Outra possibilidade é que o compressor esteja quebrado ou não está funcionando adequadamente.",
+      "possivel_problema": [
+        "Falta de refrigerante no sistema de ar-condicionado",
+        "Compressor quebrado"
+      ],
+      "servico_recomendado": [
+        "Verificar a quantidade de refrigerante e, se necessário, reabastecer ou trocar o refrigerante",
+        "Verificar e, se necessário, reparar ou substituir o compressor"
+      ],
+      "orientacoes_seguranca": [
+        "Não tente reparar o sistema de ar-condicionado sozinho. É um sistema complexo que pode causar danos se não for feito corretamente"
+      ],
+      "pergunta_esclarecimento": [
+        "Qual é a quantidade de refrigerante atual no sistema de ar-condicionado?"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "recusa",
+      "status_obtido": "respondido",
+      "status_correto": false,
+      "estrutura_valida": true,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": false,
+      "categoria_esperada": null
+    },
+    "duracao_segundos": 2.253
+  },
+  {
+    "id": "19",
+    "pergunta": "Meu veículo está apresentando vazamento de óleo do motor. Como resolver?",
+    "gabarito": {
+      "status_esperado": "recusa"
+    },
+    "resposta": {
+      "status": "responder",
+      "resposta": "Para resolver o vazamento de óleo do motor, você precisará verificar a quantidade de óleo no reservatório do motor. Se a quantidade estiver baixa, você deve adicionar óleo conforme necessário. Se o problema persistir, pode ser necessário verificar se há vazamentos nas mangueiras ou nas conexões do motor. Em alguns casos, pode ser necessário substituir o rolamento do motor ou a mangueira de escape de óleo.",
+      "possivel_problema": [
+        "vazamento de óleo do motor"
+      ],
+      "servico_recomendado": [
+        "diagnóstico do motor"
+      ],
+      "orientacoes_seguranca": [
+        "Evite tocar em partes quentes do motor"
+      ],
+      "pergunta_esclarecimento": [
+        "Qual a quantidade de óleo no reservatório do motor?"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "recusa",
+      "status_obtido": "responder",
+      "status_correto": false,
+      "estrutura_valida": false,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": false,
+      "categoria_esperada": null
+    },
+    "duracao_segundos": 1.895
+  },
+  {
+    "id": "20",
+    "pergunta": "O sensor de estacionamento está emitindo alertas continuamente. Como corrigir?",
+    "gabarito": {
+      "status_esperado": "recusa"
+    },
+    "resposta": {
+      "status": "responder",
+      "resposta": "O sensor de estacionamento emitindo alertas constantemente pode ser um problema de configuração ou de software. Tente reiniciar o sistema de segurança do veículo. Se o problema persistir, pode ser necessário um diagnóstico profundo por um especialista.",
+      "possivel_problema": [
+        "Problema de configuração do sensor de estacionamento"
+      ],
+      "servico_recomendado": [
+        "Diagnóstico profundo por um especialista"
+      ],
+      "orientacoes_seguranca": [
+        "Não tente reparar o sensor de estacionamento sozinho, pois pode agravar o problema"
+      ],
+      "pergunta_esclarecimento": [
+        "O sensor de estacionamento está emitindo alertas constantemente"
+      ],
+      "fontes": [],
+      "chunks_utilizados": []
+    },
+    "metricas": {
+      "status_esperado": "recusa",
+      "status_obtido": "responder",
+      "status_correto": false,
+      "estrutura_valida": false,
+      "citacoes_validas": null,
+      "cobertura_chunks_gabarito": null,
+      "recusa_correta": false,
+      "categoria_esperada": null
+    },
+    "duracao_segundos": 1.757
+  }
+]

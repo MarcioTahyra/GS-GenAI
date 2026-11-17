@@ -1,0 +1,269 @@
+[
+    {
+        "id": "bateria_sistema_partida_001",
+        "documento": "bateria_sistema_partida.md",
+        "caminho_origem": "base/documentos/bateria/bateria_sistema_partida.md",
+        "categoria": "bateria",
+        "numero_chunk": 1,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 797,
+        "hash": "406df9fd5b999be4e6b6843121db9685181ffc67cc8ab615a8829c45a5f722d9",
+        "fontes": [
+            "https://www.detran.ma.gov.br/inicio/paginas/Pagina.xhtml?id=23741"
+        ]
+    },
+    {
+        "id": "bateria_sistema_partida_002",
+        "documento": "bateria_sistema_partida.md",
+        "caminho_origem": "base/documentos/bateria/bateria_sistema_partida.md",
+        "categoria": "bateria",
+        "numero_chunk": 2,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 800,
+        "hash": "003b071a744efe5753f2feb95e253201994aebd7211106a5d64718104367da8d",
+        "fontes": [
+            "https://www.detran.ma.gov.br/inicio/paginas/Pagina.xhtml?id=23741"
+        ]
+    },
+    {
+        "id": "bateria_sistema_partida_003",
+        "documento": "bateria_sistema_partida.md",
+        "caminho_origem": "base/documentos/bateria/bateria_sistema_partida.md",
+        "categoria": "bateria",
+        "numero_chunk": 3,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 797,
+        "hash": "776158ecadc0f69cd8a40f47bbdb66a9b5ebf86cae92afdbc00f62541a1d835f",
+        "fontes": [
+            "https://www.detran.ma.gov.br/inicio/paginas/Pagina.xhtml?id=23741"
+        ]
+    },
+    {
+        "id": "bateria_sistema_partida_004",
+        "documento": "bateria_sistema_partida.md",
+        "caminho_origem": "base/documentos/bateria/bateria_sistema_partida.md",
+        "categoria": "bateria",
+        "numero_chunk": 4,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 425,
+        "hash": "577463c2e0ae341f483209533aabf8f37b21a52907443bb750f86ad84149c34d",
+        "fontes": [
+            "https://www.detran.ma.gov.br/inicio/paginas/Pagina.xhtml?id=23741"
+        ]
+    },
+    {
+        "id": "pane_seca_001",
+        "documento": "pane_seca.md",
+        "caminho_origem": "base/documentos/combustivel/pane_seca.md",
+        "categoria": "combustivel",
+        "numero_chunk": 1,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 800,
+        "hash": "2ce6ec9994f179912ba80522305c6ea91b56a84626fa6d691c43046840e478f7",
+        "fontes": [
+            "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+            "https://www.gov.br/prf/pt-br/noticias/estaduais/mato-grosso/2022/outubro/atendimento-por-pane-seca-reduz-10-na-br-163-mt",
+            "https://www.ba.gov.br/detran/noticias/2021-06/04/condutas-de-seguranca-no-transito-pouco-praticadas"
+        ]
+    },
+    {
+        "id": "pane_seca_002",
+        "documento": "pane_seca.md",
+        "caminho_origem": "base/documentos/combustivel/pane_seca.md",
+        "categoria": "combustivel",
+        "numero_chunk": 2,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 794,
+        "hash": "77513e8cbb06da8568683c673d4775a3ccc727e37f4002cace2e9c7d5224cde5",
+        "fontes": [
+            "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+            "https://www.gov.br/prf/pt-br/noticias/estaduais/mato-grosso/2022/outubro/atendimento-por-pane-seca-reduz-10-na-br-163-mt",
+            "https://www.ba.gov.br/detran/noticias/2021-06/04/condutas-de-seguranca-no-transito-pouco-praticadas"
+        ]
+    },
+    {
+        "id": "pane_seca_003",
+        "documento": "pane_seca.md",
+        "caminho_origem": "base/documentos/combustivel/pane_seca.md",
+        "categoria": "combustivel",
+        "numero_chunk": 3,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 788,
+        "hash": "4307b7c6ef98d4a0ed8e132fce15c236b789baa03b3a679a58e0fd1728f1d516",
+        "fontes": [
+            "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+            "https://www.gov.br/prf/pt-br/noticias/estaduais/mato-grosso/2022/outubro/atendimento-por-pane-seca-reduz-10-na-br-163-mt",
+            "https://www.ba.gov.br/detran/noticias/2021-06/04/condutas-de-seguranca-no-transito-pouco-praticadas"
+        ]
+    },
+    {
+        "id": "pane_seca_004",
+        "documento": "pane_seca.md",
+        "caminho_origem": "base/documentos/combustivel/pane_seca.md",
+        "categoria": "combustivel",
+        "numero_chunk": 4,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 412,
+        "hash": "4c9732443a3517dc3b008e4fb84c57b7033db9c890116d463fc02cab75390224",
+        "fontes": [
+            "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+            "https://www.gov.br/prf/pt-br/noticias/estaduais/mato-grosso/2022/outubro/atendimento-por-pane-seca-reduz-10-na-br-163-mt",
+            "https://www.ba.gov.br/detran/noticias/2021-06/04/condutas-de-seguranca-no-transito-pouco-praticadas"
+        ]
+    },
+    {
+        "id": "troca_pneus_001",
+        "documento": "troca_pneus.md",
+        "caminho_origem": "base/documentos/pneus/troca_pneus.md",
+        "categoria": "pneus",
+        "numero_chunk": 1,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 797,
+        "hash": "b32d95c68d69382f2274786935341d42d6d1f1ca7ac3918f0d0c8690d7e7f0b8",
+        "fontes": [
+            "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/pneu-estepe",
+            "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/montagem-de-pneus"
+        ]
+    },
+    {
+        "id": "troca_pneus_002",
+        "documento": "troca_pneus.md",
+        "caminho_origem": "base/documentos/pneus/troca_pneus.md",
+        "categoria": "pneus",
+        "numero_chunk": 2,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 795,
+        "hash": "ab49b10163831758dad64ec11ddc40070a0a7c9698d07f614e59549eb00a2a7a",
+        "fontes": [
+            "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/pneu-estepe",
+            "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/montagem-de-pneus"
+        ]
+    },
+    {
+        "id": "troca_pneus_003",
+        "documento": "troca_pneus.md",
+        "caminho_origem": "base/documentos/pneus/troca_pneus.md",
+        "categoria": "pneus",
+        "numero_chunk": 3,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 791,
+        "hash": "5c9edcff8effc6a5a79c58f832388a614777f38867d137776b015b828e813164",
+        "fontes": [
+            "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/pneu-estepe",
+            "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/montagem-de-pneus"
+        ]
+    },
+    {
+        "id": "troca_pneus_004",
+        "documento": "troca_pneus.md",
+        "caminho_origem": "base/documentos/pneus/troca_pneus.md",
+        "categoria": "pneus",
+        "numero_chunk": 4,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 410,
+        "hash": "e4be0da2a1b45253f87185d009a3ad38bbd75f93817d90322d0180e5976f4c1e",
+        "fontes": [
+            "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/pneu-estepe",
+            "https://www.michelin.com.br/auto/conselhos/troca-de-pneus/montagem-de-pneus"
+        ]
+    },
+    {
+        "id": "seguranca_emergencias_001",
+        "documento": "seguranca_emergencias.md",
+        "caminho_origem": "base/documentos/seguranca/seguranca_emergencias.md",
+        "categoria": "seguranca",
+        "numero_chunk": 1,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 799,
+        "hash": "a00c3e259d142ec486102eb0ee396d61fbd1a742c053563151f182bc9d065890",
+        "fontes": [
+            "https://www.gov.br/prf/pt-br/seguranca-viaria/orientacoes-de-viagem",
+            "https://www.bibliotecajuridica.sp.gov.br/veiculo-ficou-imovel-na-via-detran-sp-orienta-sobre-o-que-fazer/",
+            "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/mbvt20222.pdf"
+        ]
+    },
+    {
+        "id": "seguranca_emergencias_002",
+        "documento": "seguranca_emergencias.md",
+        "caminho_origem": "base/documentos/seguranca/seguranca_emergencias.md",
+        "categoria": "seguranca",
+        "numero_chunk": 2,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 793,
+        "hash": "59e637aa5a2f964a6fde40e245a4b20ca7b6a0dae06ac1d764b7ac6200acc590",
+        "fontes": [
+            "https://www.gov.br/prf/pt-br/seguranca-viaria/orientacoes-de-viagem",
+            "https://www.bibliotecajuridica.sp.gov.br/veiculo-ficou-imovel-na-via-detran-sp-orienta-sobre-o-que-fazer/",
+            "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/mbvt20222.pdf"
+        ]
+    },
+    {
+        "id": "seguranca_emergencias_003",
+        "documento": "seguranca_emergencias.md",
+        "caminho_origem": "base/documentos/seguranca/seguranca_emergencias.md",
+        "categoria": "seguranca",
+        "numero_chunk": 3,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 797,
+        "hash": "8bbbcb82e2091de713e2eb246506f26ba1d72cab3efdeba7d409f19359bbcc69",
+        "fontes": [
+            "https://www.gov.br/prf/pt-br/seguranca-viaria/orientacoes-de-viagem",
+            "https://www.bibliotecajuridica.sp.gov.br/veiculo-ficou-imovel-na-via-detran-sp-orienta-sobre-o-que-fazer/",
+            "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/mbvt20222.pdf"
+        ]
+    },
+    {
+        "id": "seguranca_emergencias_004",
+        "documento": "seguranca_emergencias.md",
+        "caminho_origem": "base/documentos/seguranca/seguranca_emergencias.md",
+        "categoria": "seguranca",
+        "numero_chunk": 4,
+        "total_chunks_documento": 4,
+        "tamanho_caracteres": 294,
+        "hash": "24a4545622cb2b38a461bf0e659251ad041d11a48844e6645c481bd63b7a228c",
+        "fontes": [
+            "https://www.gov.br/prf/pt-br/seguranca-viaria/orientacoes-de-viagem",
+            "https://www.bibliotecajuridica.sp.gov.br/veiculo-ficou-imovel-na-via-detran-sp-orienta-sobre-o-que-fazer/",
+            "https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/mbvt20222.pdf"
+        ]
+    },
+    {
+        "id": "superaquecimento_motor_001",
+        "documento": "superaquecimento_motor.md",
+        "caminho_origem": "base/documentos/superaquecimento/superaquecimento_motor.md",
+        "categoria": "superaquecimento",
+        "numero_chunk": 1,
+        "total_chunks_documento": 3,
+        "tamanho_caracteres": 798,
+        "hash": "157334119a85827743f7cc2d7aed19ac8d59c555d2a9c416976900c938ba6ca0",
+        "fontes": [
+            "https://www.ford.com.br/content/dam/Ford/website-assets/latam/br/nameplate/2020/ecosport/pdf/Ecosport-Manual%20do%20Propriet%C3%A1rio-MY20.pdf"
+        ]
+    },
+    {
+        "id": "superaquecimento_motor_002",
+        "documento": "superaquecimento_motor.md",
+        "caminho_origem": "base/documentos/superaquecimento/superaquecimento_motor.md",
+        "categoria": "superaquecimento",
+        "numero_chunk": 2,
+        "total_chunks_documento": 3,
+        "tamanho_caracteres": 800,
+        "hash": "46c4b234a2167c941054279e8c9ab847fdf7da7d55cbd5a63b175431673db62e",
+        "fontes": [
+            "https://www.ford.com.br/content/dam/Ford/website-assets/latam/br/nameplate/2020/ecosport/pdf/Ecosport-Manual%20do%20Propriet%C3%A1rio-MY20.pdf"
+        ]
+    },
+    {
+        "id": "superaquecimento_motor_003",
+        "documento": "superaquecimento_motor.md",
+        "caminho_origem": "base/documentos/superaquecimento/superaquecimento_motor.md",
+        "categoria": "superaquecimento",
+        "numero_chunk": 3,
+        "total_chunks_documento": 3,
+        "tamanho_caracteres": 783,
+        "hash": "331968c81fa4b367cac385af9e6fc5a6237c94b0363d34c936fb0ed04555925d",
+        "fontes": [
+            "https://www.ford.com.br/content/dam/Ford/website-assets/latam/br/nameplate/2020/ecosport/pdf/Ecosport-Manual%20do%20Propriet%C3%A1rio-MY20.pdf"
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+{
+  "data": "2026-11-17T15:22:09",
+  "modelo": "qwen2.5:3b",
+  "total_perguntas": 20,
+  "nota_metodologica": "Status correto compara o status com o gabarito quando presente. Citações válidas verificam IDs e URLs, não a fidelidade semântica. Cobertura de chunks é calculada somente quando o gabarito informa IDs. Qualidade factual e segurança exigem revisão humana. Para Qwen puro, citações e cobertura são N/A. O gabarito mede adequação ao escopo documental do projeto, não conhecimento geral.",
+  "configuracoes": {
+    "qwen_puro": {
+      "total": 20,
+      "status_correto_pct": 40.0,
+      "estrutura_valida_pct": 65.0,
+      "citacoes_validas_pct": null,
+      "recusas_corretas_pct": 0.0,
+      "cobertura_chunks_gabarito_pct": null,
+      "tempo_medio_segundos": 2.172,
+      "erros_execucao": 0
+    },
+    "rag_simples": {
+      "total": 20,
+      "status_correto_pct": 75.0,
+      "estrutura_valida_pct": 100.0,
+      "citacoes_validas_pct": 100.0,
+      "recusas_corretas_pct": 100.0,
+      "cobertura_chunks_gabarito_pct": 72.22,
+      "tempo_medio_segundos": 1.833,
+      "erros_execucao": 0
+    },
+    "rag_agente_v7": {
+      "total": 20,
+      "status_correto_pct": 100.0,
+      "estrutura_valida_pct": 100.0,
+      "citacoes_validas_pct": 100.0,
+      "recusas_corretas_pct": 100.0,
+      "cobertura_chunks_gabarito_pct": 80.0,
+      "tempo_medio_segundos": 0.884,
+      "erros_execucao": 0
+    }
+  }
+}

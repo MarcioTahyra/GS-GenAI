@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Meu carro está com dificuldade para dar partida e as luzes do painel estão fracas.",
+    "categoria_esperada": "bateria"
+  },
+  {
+    "id": 2,
+    "pergunta": "A bateria do veículo parece descarregada. O que devo fazer?",
+    "categoria_esperada": "bateria"
+  },
+  {
+    "id": 3,
+    "pergunta": "O motor de partida está girando lentamente e o carro não liga.",
+    "categoria_esperada": "bateria"
+  },
+  {
+    "id": 4,
+    "pergunta": "Meu pneu furou enquanto eu dirigia. Como devo proceder?",
+    "categoria_esperada": "pneus"
+  },
+  {
+    "id": 5,
+    "pergunta": "Quais cuidados devo tomar antes de trocar o estepe?",
+    "categoria_esperada": "pneus"
+  },
+  {
+    "id": 6,
+    "pergunta": "Posso trocar um pneu com o carro parado em um acostamento movimentado?",
+    "categoria_esperada": "pneus"
+  },
+  {
+    "id": 7,
+    "pergunta": "A temperatura do motor está muito alta. O que devo fazer?",
+    "categoria_esperada": "superaquecimento"
+  },
+  {
+    "id": 8,
+    "pergunta": "Está saindo vapor do compartimento do motor.",
+    "categoria_esperada": "superaquecimento"
+  },
+  {
+    "id": 9,
+    "pergunta": "É seguro abrir o reservatório de arrefecimento com o motor quente?",
+    "categoria_esperada": "superaquecimento"
+  },
+  {
+    "id": 10,
+    "pergunta": "Meu veículo ficou sem combustível durante o trajeto. Como devo agir?",
+    "categoria_esperada": "combustivel"
+  },
+  {
+    "id": 11,
+    "pergunta": "O carro parou porque acabou a gasolina. Qual assistência devo solicitar?",
+    "categoria_esperada": "combustivel"
+  },
+  {
+    "id": 12,
+    "pergunta": "Quais cuidados devo tomar para evitar uma pane seca?",
+    "categoria_esperada": "combustivel"
+  },
+  {
+    "id": 13,
+    "pergunta": "Meu carro quebrou em uma rodovia. Como devo sinalizar a emergência?",
+    "categoria_esperada": "seguranca"
+  },
+  {
+    "id": 14,
+    "pergunta": "Onde devo esperar por ajuda depois de parar o veículo em uma situação de emergência?",
+    "categoria_esperada": "seguranca"
+  },
+  {
+    "id": 15,
+    "pergunta": "Qual número devo chamar para solicitar ajuda da Polícia Rodoviária Federal?",
+    "categoria_esperada": "seguranca"
+  },
+  {
+    "id": 16,
+    "pergunta": "A luz do ABS acendeu no painel. Qual peça devo substituir?",
+    "categoria_esperada": null
+  },
+  {
+    "id": 17,
+    "pergunta": "O vidro elétrico do motorista parou de funcionar. Como consertar?",
+    "categoria_esperada": null
+  },
+  {
+    "id": 18,
+    "pergunta": "O ar-condicionado do carro não está gelando. Qual é o defeito?",
+    "categoria_esperada": null
+  },
+  {
+    "id": 19,
+    "pergunta": "Meu veículo está apresentando vazamento de óleo do motor. Como resolver?",
+    "categoria_esperada": null
+  },
+  {
+    "id": 20,
+    "pergunta": "O sensor de estacionamento está emitindo alertas continuamente. Como corrigir?",
+    "categoria_esperada": null
+  }
+]

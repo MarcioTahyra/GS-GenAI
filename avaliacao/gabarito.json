@@ -1,0 +1,18 @@
+
+{
+  "1": ["bateria_sistema_partida_001", "bateria_sistema_partida_002"],
+  "2": ["bateria_sistema_partida_002", "bateria_sistema_partida_003"],
+  "3": ["bateria_sistema_partida_001", "bateria_sistema_partida_002", "bateria_sistema_partida_003"],
+  "4": ["troca_pneus_001", "troca_pneus_002", "troca_pneus_003"],
+  "5": ["troca_pneus_002", "troca_pneus_003"],
+  "6": ["troca_pneus_001", "troca_pneus_002", "seguranca_emergencias_001", "seguranca_emergencias_002"],
+  "7": ["superaquecimento_motor_001", "superaquecimento_motor_002", "superaquecimento_motor_003"],
+  "8": ["superaquecimento_motor_001", "superaquecimento_motor_002", "superaquecimento_motor_003"],
+  "9": ["superaquecimento_motor_002", "superaquecimento_motor_003"],
+  "10": ["pane_seca_001", "pane_seca_002", "pane_seca_003"],
+  "11": ["pane_seca_002", "pane_seca_003"],
+  "12": ["pane_seca_001", "pane_seca_002"],
+  "13": ["seguranca_emergencias_001", "seguranca_emergencias_002", "seguranca_emergencias_003"],
+  "14": ["seguranca_emergencias_001", "seguranca_emergencias_003"],
+  "15": ["seguranca_emergencias_003"]
+}

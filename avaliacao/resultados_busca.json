@@ -1,0 +1,1136 @@
+{
+    "quantidade_perguntas": 20,
+    "pesos_busca": {
+        "semantica": 0.65,
+        "palavras_chave": 0.35
+    },
+    "busca_semantica": {
+        "recall_at_1": 0.2611111111111111,
+        "recall_at_3": 0.7388888888888889,
+        "hit_rate_at_1": 0.6666666666666666,
+        "hit_rate_at_3": 0.9333333333333333
+    },
+    "busca_hibrida": {
+        "recall_at_1": 0.3166666666666666,
+        "recall_at_3": 0.8777777777777778,
+        "hit_rate_at_1": 0.8,
+        "hit_rate_at_3": 1.0
+    },
+    "melhor_limiar_semantico_experimental": {
+        "limiar_semantico": 0.8767983913421631,
+        "sensibilidade": 0.7333333333333333,
+        "especificidade": 1.0,
+        "acuracia_balanceada": 0.8666666666666667,
+        "falsas_rejeicoes": 4,
+        "falsas_aceitacoes": 0
+    },
+    "resultados_individuais": [
+        {
+            "id_pergunta": "1",
+            "pergunta": "Meu carro está com dificuldade para dar partida e as luzes do painel estão fracas.",
+            "maior_similaridade_semantica": 0.8689364194869995,
+            "resultados_hibridos": [
+                {
+                    "id": "bateria_sistema_partida_001",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.8761043148068554,
+                    "similaridade_semantica": 0.8605424165725708,
+                    "similaridade_palavras": 0.8903027139470595
+                },
+                {
+                    "id": "bateria_sistema_partida_004",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.7847128634628998,
+                    "similaridade_semantica": 0.8689364194869995,
+                    "similaridade_palavras": 0.38489396372787915
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.6647957417470665,
+                    "similaridade_semantica": 0.8522458672523499,
+                    "similaridade_palavras": 0.5280180922867148
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "bateria_sistema_partida_004",
+                    "categoria": "bateria",
+                    "similaridade": 0.8689364194869995
+                },
+                {
+                    "id": "bateria_sistema_partida_001",
+                    "categoria": "bateria",
+                    "similaridade": 0.8605424165725708
+                },
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "similaridade": 0.8585233688354492
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "bateria_sistema_partida_001",
+                "bateria_sistema_partida_002"
+            ],
+            "recall_hibrido_at_1": 0.5,
+            "recall_hibrido_at_3": 0.5,
+            "recall_semantico_at_1": 0.0,
+            "recall_semantico_at_3": 1.0,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": false,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "2",
+            "pergunta": "A bateria do veículo parece descarregada. O que devo fazer?",
+            "maior_similaridade_semantica": 0.9097256660461426,
+            "resultados_hibridos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.8935370897652781,
+                    "similaridade_semantica": 0.9097256660461426,
+                    "similaridade_palavras": 0.6958203245918172
+                },
+                {
+                    "id": "bateria_sistema_partida_004",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.6895452391869799,
+                    "similaridade_semantica": 0.8970130681991577,
+                    "similaridade_palavras": 0.36643086494916277
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.6628918301827684,
+                    "similaridade_semantica": 0.8931933045387268,
+                    "similaridade_palavras": 0.36643086494916277
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "similaridade": 0.9097256660461426
+                },
+                {
+                    "id": "bateria_sistema_partida_004",
+                    "categoria": "bateria",
+                    "similaridade": 0.8970130681991577
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "similaridade": 0.8931933045387268
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "bateria_sistema_partida_002",
+                "bateria_sistema_partida_003"
+            ],
+            "recall_hibrido_at_1": 0.5,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.5,
+            "recall_semantico_at_3": 1.0,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": true,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "3",
+            "pergunta": "O motor de partida está girando lentamente e o carro não liga.",
+            "maior_similaridade_semantica": 0.8599860668182373,
+            "resultados_hibridos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.9317420707152653,
+                    "similaridade_semantica": 0.8599860668182373,
+                    "similaridade_palavras": 0.8049774130203521
+                },
+                {
+                    "id": "bateria_sistema_partida_001",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.781789012447934,
+                    "similaridade_semantica": 0.8425964117050171,
+                    "similaridade_palavras": 0.9360544389087264
+                },
+                {
+                    "id": "pane_seca_003",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.5112944457874363,
+                    "similaridade_semantica": 0.8410360217094421,
+                    "similaridade_palavras": 0.21341857851847745
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "similaridade": 0.8599860668182373
+                },
+                {
+                    "id": "bateria_sistema_partida_001",
+                    "categoria": "bateria",
+                    "similaridade": 0.8425964117050171
+                },
+                {
+                    "id": "pane_seca_003",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8410360217094421
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "bateria_sistema_partida_001",
+                "bateria_sistema_partida_002",
+                "bateria_sistema_partida_003"
+            ],
+            "recall_hibrido_at_1": 0.3333333333333333,
+            "recall_hibrido_at_3": 0.6666666666666666,
+            "recall_semantico_at_1": 0.3333333333333333,
+            "recall_semantico_at_3": 0.6666666666666666,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": true,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "4",
+            "pergunta": "Meu pneu furou enquanto eu dirigia. Como devo proceder?",
+            "maior_similaridade_semantica": 0.8828322887420654,
+            "resultados_hibridos": [
+                {
+                    "id": "troca_pneus_001",
+                    "categoria": "pneus",
+                    "score_hibrido": 0.7508283292387402,
+                    "similaridade_semantica": 0.8828322887420654,
+                    "similaridade_palavras": 0.28808100880170895
+                },
+                {
+                    "id": "troca_pneus_002",
+                    "categoria": "pneus",
+                    "score_hibrido": 0.6998185550306714,
+                    "similaridade_semantica": 0.8775843381881714,
+                    "similaridade_palavras": 0.28808100880170895
+                },
+                {
+                    "id": "troca_pneus_003",
+                    "categoria": "pneus",
+                    "score_hibrido": 0.6604560648535168,
+                    "similaridade_semantica": 0.8735346794128418,
+                    "similaridade_palavras": 0.28808100880170895
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "troca_pneus_001",
+                    "categoria": "pneus",
+                    "similaridade": 0.8828322887420654
+                },
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8823270201683044
+                },
+                {
+                    "id": "troca_pneus_002",
+                    "categoria": "pneus",
+                    "similaridade": 0.8775843381881714
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "troca_pneus_001",
+                "troca_pneus_002",
+                "troca_pneus_003"
+            ],
+            "recall_hibrido_at_1": 0.3333333333333333,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.3333333333333333,
+            "recall_semantico_at_3": 0.6666666666666666,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": true,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "5",
+            "pergunta": "Quais cuidados devo tomar antes de trocar o estepe?",
+            "maior_similaridade_semantica": 0.8964889049530029,
+            "resultados_hibridos": [
+                {
+                    "id": "troca_pneus_003",
+                    "categoria": "pneus",
+                    "score_hibrido": 0.8059132528770938,
+                    "similaridade_semantica": 0.8964889049530029,
+                    "similaridade_palavras": 0.4454665049112908
+                },
+                {
+                    "id": "troca_pneus_002",
+                    "categoria": "pneus",
+                    "score_hibrido": 0.7927373425957216,
+                    "similaridade_semantica": 0.8820629119873047,
+                    "similaridade_palavras": 0.6781485468991181
+                },
+                {
+                    "id": "troca_pneus_004",
+                    "categoria": "pneus",
+                    "score_hibrido": 0.6956897807587161,
+                    "similaridade_semantica": 0.8796830177307129,
+                    "similaridade_palavras": 0.4454665049112908
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "troca_pneus_003",
+                    "categoria": "pneus",
+                    "similaridade": 0.8964889049530029
+                },
+                {
+                    "id": "troca_pneus_002",
+                    "categoria": "pneus",
+                    "similaridade": 0.8820629119873047
+                },
+                {
+                    "id": "troca_pneus_004",
+                    "categoria": "pneus",
+                    "similaridade": 0.8796830177307129
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "troca_pneus_002",
+                "troca_pneus_003"
+            ],
+            "recall_hibrido_at_1": 0.5,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.5,
+            "recall_semantico_at_3": 1.0,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": true,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "6",
+            "pergunta": "Posso trocar um pneu com o carro parado em um acostamento movimentado?",
+            "maior_similaridade_semantica": 0.8648529052734375,
+            "resultados_hibridos": [
+                {
+                    "id": "troca_pneus_002",
+                    "categoria": "pneus",
+                    "score_hibrido": 0.8443706224349576,
+                    "similaridade_semantica": 0.8648529052734375,
+                    "similaridade_palavras": 0.5553447036480446
+                },
+                {
+                    "id": "troca_pneus_004",
+                    "categoria": "pneus",
+                    "score_hibrido": 0.7200806925681669,
+                    "similaridade_semantica": 0.8498809337615967,
+                    "similaridade_palavras": 0.5553447036480446
+                },
+                {
+                    "id": "troca_pneus_001",
+                    "categoria": "pneus",
+                    "score_hibrido": 0.6649150143054563,
+                    "similaridade_semantica": 0.8432356715202332,
+                    "similaridade_palavras": 0.5553447036480446
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "troca_pneus_002",
+                    "categoria": "pneus",
+                    "similaridade": 0.8648529052734375
+                },
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8570868372917175
+                },
+                {
+                    "id": "troca_pneus_004",
+                    "categoria": "pneus",
+                    "similaridade": 0.8498809337615967
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "troca_pneus_001",
+                "troca_pneus_002",
+                "seguranca_emergencias_001",
+                "seguranca_emergencias_002"
+            ],
+            "recall_hibrido_at_1": 0.25,
+            "recall_hibrido_at_3": 0.5,
+            "recall_semantico_at_1": 0.25,
+            "recall_semantico_at_3": 0.25,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": true,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "7",
+            "pergunta": "A temperatura do motor está muito alta. O que devo fazer?",
+            "maior_similaridade_semantica": 0.8801753520965576,
+            "resultados_hibridos": [
+                {
+                    "id": "superaquecimento_motor_002",
+                    "categoria": "superaquecimento",
+                    "score_hibrido": 0.8207731636951769,
+                    "similaridade_semantica": 0.8801753520965576,
+                    "similaridade_palavras": 0.4879233929629567
+                },
+                {
+                    "id": "superaquecimento_motor_001",
+                    "categoria": "superaquecimento",
+                    "score_hibrido": 0.7878726174531955,
+                    "similaridade_semantica": 0.8712491989135742,
+                    "similaridade_palavras": 0.6370222710707582
+                },
+                {
+                    "id": "superaquecimento_motor_003",
+                    "categoria": "superaquecimento",
+                    "score_hibrido": 0.6801217989420099,
+                    "similaridade_semantica": 0.8743776082992554,
+                    "similaridade_palavras": 0.24396169648147836
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "superaquecimento_motor_002",
+                    "categoria": "superaquecimento",
+                    "similaridade": 0.8801753520965576
+                },
+                {
+                    "id": "superaquecimento_motor_003",
+                    "categoria": "superaquecimento",
+                    "similaridade": 0.8743776082992554
+                },
+                {
+                    "id": "superaquecimento_motor_001",
+                    "categoria": "superaquecimento",
+                    "similaridade": 0.8712491989135742
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "superaquecimento_motor_001",
+                "superaquecimento_motor_002",
+                "superaquecimento_motor_003"
+            ],
+            "recall_hibrido_at_1": 0.3333333333333333,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.3333333333333333,
+            "recall_semantico_at_3": 1.0,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": true,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "8",
+            "pergunta": "Está saindo vapor do compartimento do motor.",
+            "maior_similaridade_semantica": 0.8307409286499023,
+            "resultados_hibridos": [
+                {
+                    "id": "superaquecimento_motor_001",
+                    "categoria": "superaquecimento",
+                    "score_hibrido": 0.8500031548910436,
+                    "similaridade_semantica": 0.8223276138305664,
+                    "similaridade_palavras": 0.8884158356340436
+                },
+                {
+                    "id": "superaquecimento_motor_002",
+                    "categoria": "superaquecimento",
+                    "score_hibrido": 0.8238677372040332,
+                    "similaridade_semantica": 0.8301268815994263,
+                    "similaridade_palavras": 0.5198996377848388
+                },
+                {
+                    "id": "superaquecimento_motor_003",
+                    "categoria": "superaquecimento",
+                    "score_hibrido": 0.7981685985626757,
+                    "similaridade_semantica": 0.8281779885292053,
+                    "similaridade_palavras": 0.5198996377848388
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8307409286499023
+                },
+                {
+                    "id": "superaquecimento_motor_002",
+                    "categoria": "superaquecimento",
+                    "similaridade": 0.8301268815994263
+                },
+                {
+                    "id": "superaquecimento_motor_003",
+                    "categoria": "superaquecimento",
+                    "similaridade": 0.8281779885292053
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "superaquecimento_motor_001",
+                "superaquecimento_motor_002",
+                "superaquecimento_motor_003"
+            ],
+            "recall_hibrido_at_1": 0.3333333333333333,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.0,
+            "recall_semantico_at_3": 0.6666666666666666,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": false,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "9",
+            "pergunta": "É seguro abrir o reservatório de arrefecimento com o motor quente?",
+            "maior_similaridade_semantica": 0.8882697224617004,
+            "resultados_hibridos": [
+                {
+                    "id": "superaquecimento_motor_002",
+                    "categoria": "superaquecimento",
+                    "score_hibrido": 0.9748360280742451,
+                    "similaridade_semantica": 0.8882697224617004,
+                    "similaridade_palavras": 0.92810300547458
+                },
+                {
+                    "id": "superaquecimento_motor_003",
+                    "categoria": "superaquecimento",
+                    "score_hibrido": 0.6849759529045996,
+                    "similaridade_semantica": 0.8675679564476013,
+                    "similaridade_palavras": 0.543281013060688
+                },
+                {
+                    "id": "superaquecimento_motor_001",
+                    "categoria": "superaquecimento",
+                    "score_hibrido": 0.3961225167702439,
+                    "similaridade_semantica": 0.8387576937675476,
+                    "similaridade_palavras": 0.3349867933678634
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "superaquecimento_motor_002",
+                    "categoria": "superaquecimento",
+                    "similaridade": 0.8882697224617004
+                },
+                {
+                    "id": "superaquecimento_motor_003",
+                    "categoria": "superaquecimento",
+                    "similaridade": 0.8675679564476013
+                },
+                {
+                    "id": "superaquecimento_motor_001",
+                    "categoria": "superaquecimento",
+                    "similaridade": 0.8387576937675476
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "superaquecimento_motor_002",
+                "superaquecimento_motor_003"
+            ],
+            "recall_hibrido_at_1": 0.5,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.5,
+            "recall_semantico_at_3": 1.0,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": true,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "10",
+            "pergunta": "Meu veículo ficou sem combustível durante o trajeto. Como devo agir?",
+            "maior_similaridade_semantica": 0.8958293199539185,
+            "resultados_hibridos": [
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.8974503390356362,
+                    "similaridade_semantica": 0.8958293199539185,
+                    "similaridade_palavras": 0.7070010367928403
+                },
+                {
+                    "id": "pane_seca_001",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.6224266104265511,
+                    "similaridade_semantica": 0.8586679697036743,
+                    "similaridade_palavras": 0.7070010367928403
+                },
+                {
+                    "id": "pane_seca_003",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.6071751959756553,
+                    "similaridade_semantica": 0.8761862516403198,
+                    "similaridade_palavras": 0.2929989632071596
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8958293199539185
+                },
+                {
+                    "id": "pane_seca_003",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8761862516403198
+                },
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "similaridade": 0.8722500801086426
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "pane_seca_001",
+                "pane_seca_002",
+                "pane_seca_003"
+            ],
+            "recall_hibrido_at_1": 0.3333333333333333,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.3333333333333333,
+            "recall_semantico_at_3": 0.6666666666666666,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": true,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "11",
+            "pergunta": "O carro parou porque acabou a gasolina. Qual assistência devo solicitar?",
+            "maior_similaridade_semantica": 0.8833863735198975,
+            "resultados_hibridos": [
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.7817430202894654,
+                    "similaridade_semantica": 0.8833863735198975,
+                    "similaridade_palavras": 0.37640869751806666
+                },
+                {
+                    "id": "pane_seca_003",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.6217613737804344,
+                    "similaridade_semantica": 0.8641402721405029,
+                    "similaridade_palavras": 0.4110326713104053
+                },
+                {
+                    "id": "seguranca_emergencias_002",
+                    "categoria": "seguranca",
+                    "score_hibrido": 0.5890631978445496,
+                    "similaridade_semantica": 0.8618388175964355,
+                    "similaridade_palavras": 0.37640869751806666
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "similaridade": 0.8833863735198975
+                },
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "similaridade": 0.8699130415916443
+                },
+                {
+                    "id": "troca_pneus_003",
+                    "categoria": "pneus",
+                    "similaridade": 0.8686598539352417
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "pane_seca_002",
+                "pane_seca_003"
+            ],
+            "recall_hibrido_at_1": 0.0,
+            "recall_hibrido_at_3": 0.5,
+            "recall_semantico_at_1": 0.0,
+            "recall_semantico_at_3": 0.0,
+            "hit_hibrido_at_1": false,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": false,
+            "hit_semantico_at_3": false
+        },
+        {
+            "id_pergunta": "12",
+            "pergunta": "Quais cuidados devo tomar para evitar uma pane seca?",
+            "maior_similaridade_semantica": 0.8808126449584961,
+            "resultados_hibridos": [
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.8246353035197752,
+                    "similaridade_semantica": 0.8808126449584961,
+                    "similaridade_palavras": 0.4989580781760946
+                },
+                {
+                    "id": "pane_seca_001",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.7658212547526854,
+                    "similaridade_semantica": 0.8729787468910217,
+                    "similaridade_palavras": 0.4989580781760946
+                },
+                {
+                    "id": "pane_seca_004",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.6643219654784697,
+                    "similaridade_semantica": 0.8594592809677124,
+                    "similaridade_palavras": 0.4989580781760946
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8808126449584961
+                },
+                {
+                    "id": "pane_seca_001",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8729787468910217
+                },
+                {
+                    "id": "pane_seca_004",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8594592809677124
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "pane_seca_001",
+                "pane_seca_002"
+            ],
+            "recall_hibrido_at_1": 0.5,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.5,
+            "recall_semantico_at_3": 1.0,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": true,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "13",
+            "pergunta": "Meu carro quebrou em uma rodovia. Como devo sinalizar a emergência?",
+            "maior_similaridade_semantica": 0.9087256193161011,
+            "resultados_hibridos": [
+                {
+                    "id": "seguranca_emergencias_002",
+                    "categoria": "seguranca",
+                    "score_hibrido": 0.7406818348870536,
+                    "similaridade_semantica": 0.9087256193161011,
+                    "similaridade_palavras": 0.2590910249397473
+                },
+                {
+                    "id": "seguranca_emergencias_001",
+                    "categoria": "seguranca",
+                    "score_hibrido": 0.7236323474496726,
+                    "similaridade_semantica": 0.888866662979126,
+                    "similaridade_palavras": 0.6473309138417597
+                },
+                {
+                    "id": "seguranca_emergencias_003",
+                    "categoria": "seguranca",
+                    "score_hibrido": 0.4106597680554649,
+                    "similaridade_semantica": 0.8658710718154907,
+                    "similaridade_palavras": 0.2590910249397473
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "seguranca_emergencias_002",
+                    "categoria": "seguranca",
+                    "similaridade": 0.9087256193161011
+                },
+                {
+                    "id": "seguranca_emergencias_001",
+                    "categoria": "seguranca",
+                    "similaridade": 0.888866662979126
+                },
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8735823631286621
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "seguranca_emergencias_001",
+                "seguranca_emergencias_002",
+                "seguranca_emergencias_003"
+            ],
+            "recall_hibrido_at_1": 0.3333333333333333,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.3333333333333333,
+            "recall_semantico_at_3": 0.6666666666666666,
+            "hit_hibrido_at_1": true,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": true,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "14",
+            "pergunta": "Onde devo esperar por ajuda depois de parar o veículo em uma situação de emergência?",
+            "maior_similaridade_semantica": 0.8793644905090332,
+            "resultados_hibridos": [
+                {
+                    "id": "seguranca_emergencias_002",
+                    "categoria": "seguranca",
+                    "score_hibrido": 0.890067614312518,
+                    "similaridade_semantica": 0.8793644905090332,
+                    "similaridade_palavras": 0.6859075375839312
+                },
+                {
+                    "id": "seguranca_emergencias_001",
+                    "categoria": "seguranca",
+                    "score_hibrido": 0.5922029625811182,
+                    "similaridade_semantica": 0.8510603308677673,
+                    "similaridade_palavras": 0.603826645282905
+                },
+                {
+                    "id": "seguranca_emergencias_003",
+                    "categoria": "seguranca",
+                    "score_hibrido": 0.5600577717483303,
+                    "similaridade_semantica": 0.8603032827377319,
+                    "similaridade_palavras": 0.2608728764909395
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "seguranca_emergencias_002",
+                    "categoria": "seguranca",
+                    "similaridade": 0.8793644905090332
+                },
+                {
+                    "id": "seguranca_emergencias_004",
+                    "categoria": "seguranca",
+                    "similaridade": 0.8659254312515259
+                },
+                {
+                    "id": "seguranca_emergencias_003",
+                    "categoria": "seguranca",
+                    "similaridade": 0.8603032827377319
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "seguranca_emergencias_001",
+                "seguranca_emergencias_003"
+            ],
+            "recall_hibrido_at_1": 0.0,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.0,
+            "recall_semantico_at_3": 0.5,
+            "hit_hibrido_at_1": false,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": false,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "15",
+            "pergunta": "Qual número devo chamar para solicitar ajuda da Polícia Rodoviária Federal?",
+            "maior_similaridade_semantica": 0.8837587833404541,
+            "resultados_hibridos": [
+                {
+                    "id": "seguranca_emergencias_002",
+                    "categoria": "seguranca",
+                    "score_hibrido": 0.9512166716745318,
+                    "similaridade_semantica": 0.8837587833404541,
+                    "similaridade_palavras": 0.8606191300468281
+                },
+                {
+                    "id": "pane_seca_004",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.7408802115620574,
+                    "similaridade_semantica": 0.8744770288467407,
+                    "similaridade_palavras": 0.42855898644282714
+                },
+                {
+                    "id": "seguranca_emergencias_003",
+                    "categoria": "seguranca",
+                    "score_hibrido": 0.7259515726269683,
+                    "similaridade_semantica": 0.8721330761909485,
+                    "similaridade_palavras": 0.42855898644282714
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "seguranca_emergencias_002",
+                    "categoria": "seguranca",
+                    "similaridade": 0.8837587833404541
+                },
+                {
+                    "id": "pane_seca_004",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8744770288467407
+                },
+                {
+                    "id": "seguranca_emergencias_003",
+                    "categoria": "seguranca",
+                    "similaridade": 0.8721330761909485
+                }
+            ],
+            "tipo": "com_resposta",
+            "chunks_relevantes": [
+                "seguranca_emergencias_003"
+            ],
+            "recall_hibrido_at_1": 0.0,
+            "recall_hibrido_at_3": 1.0,
+            "recall_semantico_at_1": 0.0,
+            "recall_semantico_at_3": 1.0,
+            "hit_hibrido_at_1": false,
+            "hit_hibrido_at_3": true,
+            "hit_semantico_at_1": false,
+            "hit_semantico_at_3": true
+        },
+        {
+            "id_pergunta": "16",
+            "pergunta": "A luz do ABS acendeu no painel. Qual peça devo substituir?",
+            "maior_similaridade_semantica": 0.8655884265899658,
+            "resultados_hibridos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.7603140934118666,
+                    "similaridade_semantica": 0.8618904948234558,
+                    "similaridade_palavras": 0.41155249272330546
+                },
+                {
+                    "id": "bateria_sistema_partida_004",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.7220216623847205,
+                    "similaridade_semantica": 0.8655884265899658,
+                    "similaridade_palavras": 0.20577624636165273
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.7010896436278541,
+                    "similaridade_semantica": 0.8632935285568237,
+                    "similaridade_palavras": 0.20577624636165273
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "bateria_sistema_partida_004",
+                    "categoria": "bateria",
+                    "similaridade": 0.8655884265899658
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "similaridade": 0.8632935285568237
+                },
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "similaridade": 0.8618904948234558
+                }
+            ],
+            "tipo": "fora_da_base"
+        },
+        {
+            "id_pergunta": "17",
+            "pergunta": "O vidro elétrico do motorista parou de funcionar. Como consertar?",
+            "maior_similaridade_semantica": 0.871320366859436,
+            "resultados_hibridos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.778400202652195,
+                    "similaridade_semantica": 0.871320366859436,
+                    "similaridade_palavras": 0.36685778998300816
+                },
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.5773100256919861,
+                    "similaridade_semantica": 0.8639051914215088,
+                    "similaridade_palavras": 0.0
+                },
+                {
+                    "id": "seguranca_emergencias_004",
+                    "categoria": "seguranca",
+                    "score_hibrido": 0.557567834854126,
+                    "similaridade_semantica": 0.8618912696838379,
+                    "similaridade_palavras": 0.0
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "similaridade": 0.871320366859436
+                },
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8639051914215088
+                },
+                {
+                    "id": "seguranca_emergencias_004",
+                    "categoria": "seguranca",
+                    "similaridade": 0.8618912696838379
+                }
+            ],
+            "tipo": "fora_da_base"
+        },
+        {
+            "id_pergunta": "18",
+            "pergunta": "O ar-condicionado do carro não está gelando. Qual é o defeito?",
+            "maior_similaridade_semantica": 0.8665550947189331,
+            "resultados_hibridos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.7216780158816716,
+                    "similaridade_semantica": 0.8665550947189331,
+                    "similaridade_palavras": 0.20479439921008438
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.7158736559687993,
+                    "similaridade_semantica": 0.8659940361976624,
+                    "similaridade_palavras": 0.20479439921008438
+                },
+                {
+                    "id": "bateria_sistema_partida_004",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.6705629798709294,
+                    "similaridade_semantica": 0.8616142272949219,
+                    "similaridade_palavras": 0.20479439921008438
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "similaridade": 0.8665550947189331
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "similaridade": 0.8659940361976624
+                },
+                {
+                    "id": "bateria_sistema_partida_004",
+                    "categoria": "bateria",
+                    "similaridade": 0.8616142272949219
+                }
+            ],
+            "tipo": "fora_da_base"
+        },
+        {
+            "id_pergunta": "19",
+            "pergunta": "Meu veículo está apresentando vazamento de óleo do motor. Como resolver?",
+            "maior_similaridade_semantica": 0.8689950704574585,
+            "resultados_hibridos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.830881379267806,
+                    "similaridade_semantica": 0.8689950704574585,
+                    "similaridade_palavras": 0.516804008884754
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.6790120550657051,
+                    "similaridade_semantica": 0.8618935942649841,
+                    "similaridade_palavras": 0.3183170581615359
+                },
+                {
+                    "id": "superaquecimento_motor_003",
+                    "categoria": "superaquecimento",
+                    "score_hibrido": 0.6185874690036027,
+                    "similaridade_semantica": 0.8510524034500122,
+                    "similaridade_palavras": 0.5050785341206189
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "similaridade": 0.8689950704574585
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "similaridade": 0.8618935942649841
+                },
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8593780398368835
+                }
+            ],
+            "tipo": "fora_da_base"
+        },
+        {
+            "id_pergunta": "20",
+            "pergunta": "O sensor de estacionamento está emitindo alertas continuamente. Como corrigir?",
+            "maior_similaridade_semantica": 0.874232292175293,
+            "resultados_hibridos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.6499999761581421,
+                    "similaridade_semantica": 0.874232292175293,
+                    "similaridade_palavras": 0.0
+                },
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "score_hibrido": 0.5803255438804626,
+                    "similaridade_semantica": 0.8675692081451416,
+                    "similaridade_palavras": 0.0
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "score_hibrido": 0.4690053164958954,
+                    "similaridade_semantica": 0.8569234609603882,
+                    "similaridade_palavras": 0.0
+                }
+            ],
+            "resultados_semanticos": [
+                {
+                    "id": "bateria_sistema_partida_002",
+                    "categoria": "bateria",
+                    "similaridade": 0.874232292175293
+                },
+                {
+                    "id": "pane_seca_002",
+                    "categoria": "combustivel",
+                    "similaridade": 0.8675692081451416
+                },
+                {
+                    "id": "bateria_sistema_partida_003",
+                    "categoria": "bateria",
+                    "similaridade": 0.8569234609603882
+                }
+            ],
+            "tipo": "fora_da_base"
+        }
+    ]
+}
